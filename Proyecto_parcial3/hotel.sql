@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Servidor: 127.0.0.1
--- Tiempo de generación: 08-11-2022 a las 01:21:55
+-- Tiempo de generación: 02-12-2022 a las 01:21:55
 -- Versión del servidor: 10.1.39-MariaDB
 -- Versión de PHP: 7.3.5
 
@@ -19,7 +19,7 @@ SET time_zone = "+00:00";
 /*!40101 SET NAMES utf8mb4 */;
 
 --
--- Base de datos: `practica_web`
+-- Base de datos: `hotel`
 --
 
 -- --------------------------------------------------------
@@ -43,7 +43,7 @@ CREATE TABLE `usuarios` (
 --
 
 INSERT INTO `usuarios` (`id`, `nombre`, `sexo`, `edad`, `aditamentos`, `huespedes`, `fecha_reserva`) VALUES
-(1, 'Manuel', '1', 23, 'Camas extra', 2, '2022-11-17');
+(1, 'Manuel', '1', 17, 'Camas extra', 3, '2022-12-12');
 
 --
 -- Índices para tablas volcadas
